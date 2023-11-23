@@ -15,6 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
 import TableList from "views/TableList.js";
@@ -23,6 +24,7 @@ import Icons from "views/Icons.js";
 import Maps from "views/Maps.js";
 import Notifications from "views/Notifications.js";
 import Upgrade from "views/Upgrade.js";
+import Maik from "views/Maik";
 
 const dashboardRoutes = [
   {
@@ -42,44 +44,51 @@ const dashboardRoutes = [
   },
   {
     path: "/user",
-    name: "User Profile",
+    name: "Usuario",
     icon: "nc-icon nc-circle-09",
     component: UserProfile,
     layout: "/admin"
   },
   {
     path: "/table",
-    name: "Table List",
+    name: "Lista de Tabla",
     icon: "nc-icon nc-notes",
     component: TableList,
     layout: "/admin"
   },
   {
     path: "/typography",
-    name: "Typography",
+    name: "Tipografía",
     icon: "nc-icon nc-paper-2",
     component: Typography,
     layout: "/admin"
   },
   {
     path: "/icons",
-    name: "Icons",
+    name: "Iconos",
     icon: "nc-icon nc-atom",
     component: Icons,
     layout: "/admin"
   },
   {
     path: "/maps",
-    name: "Maps",
+    name: "Mapas",
     icon: "nc-icon nc-pin-3",
     component: Maps,
     layout: "/admin"
   },
   {
     path: "/notifications",
-    name: "Notifications",
+    name: "Notificaciones",
     icon: "nc-icon nc-bell-55",
     component: Notifications,
+    layout: "/admin"
+  },
+  {
+    path: "/maik",
+    name: "Msaik",
+    icon: "nc-icon nc-bell-55",
+    component: Maik,
     layout: "/admin"
   }
 ];

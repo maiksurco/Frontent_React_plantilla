@@ -60,7 +60,7 @@ function FixedPlugin({
         </Dropdown.Toggle>
         <Dropdown.Menu>
           <li className="adjustments-line d-flex align-items-center justify-content-between">
-            <p>Background Image</p>
+            <p>Background Imagenes</p>
             <Form.Check
               type="switch"
               id="custom-switch-1-image"
